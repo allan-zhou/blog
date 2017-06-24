@@ -71,5 +71,4 @@ theme: next
 deploy:
   type: git
   repo: https://github.com/popzhou/popzhou.github.io.git
-  branch: [branch]
-  message: [message]
+  branch: master
