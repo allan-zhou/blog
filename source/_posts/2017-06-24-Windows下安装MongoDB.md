@@ -1,6 +1,6 @@
 ---
 title: Windows下安装MongoDB
-date: 2017-06-23 15:21:10
+date: 2017-06-24 15:21:10
 categories:
 - 技术
 - 数据库
