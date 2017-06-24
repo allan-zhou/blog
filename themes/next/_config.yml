@@ -303,15 +303,15 @@ baidu_analytics: c429fff5139c66ad17a4e5c50f3b2c41
 
 # Disqus
 disqus:
-  enable: false
-  shortname: 
+  enable: true
+  shortname: https-popzhou-github-io
   count: true
 
 # Hypercomments
 #hypercomments_id:
 
 # Gentie productKey 网易云跟帖
-gentie_productKey: 1601a3054e7a4aee8d242ec320fda42d
+#gentie_productKey: 1601a3054e7a4aee8d242ec320fda42d
 
 # changyan
 changyan:
