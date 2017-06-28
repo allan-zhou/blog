@@ -115,6 +115,8 @@ save()
 
 > **建议**： ending all promise chains with a `.catch()`.
 
+# Q.js 库
+
 # Promise API参考
 
 **静态方法**

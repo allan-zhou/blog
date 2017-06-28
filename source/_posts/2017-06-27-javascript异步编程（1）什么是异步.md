@@ -129,4 +129,3 @@ button.addEventListener('click', function(e) {
 # 参考链接
 - [segmentfault——JavaScript：彻底理解同步、异步和事件循环(Event Loop)](https://segmentfault.com/a/1190000004322358)
 - [一波——JavaScript 异步编程学习笔记](https://github.com/riskers/blog/issues/22)
-- [王福朋的深入理解 JavaScript 异步](https://github.com/wangfupeng1988/js-async-tutorial)

@@ -9,13 +9,6 @@ tags:
 - 异步编程
 ---
 
-# 内容概述
-- [什么是异步](#什么是异步)
-- [Promise](#Promise)
-- [Generator](#Generator)
-- [async/await](#async/await)
-
-
 # Generator
 
 ## Thunk函数
