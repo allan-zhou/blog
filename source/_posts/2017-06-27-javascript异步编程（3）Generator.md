@@ -14,6 +14,8 @@ tags:
 ## Symbol 类型
 Symbol 是一种特殊的、不可变的数据类型，可以作为对象属性的标识符使用。  
 
+<!-- more -->
+
 ES5 的对象属性名都是字符串，这容易造成属性名的冲突。比如，你使用了一个他人提供的对象，但又想为这个对象添加新的方法（mixin 模式），新方法的名字就有可能与现有方法产生冲突。如果有一种机制，保证每个属性的名字都是独一无二的就好了，这样就从根本上防止属性名的冲突。这就是 ES6 引入Symbol的原因。
 
 它是 JavaScript 语言的第七种数据类型，前六种是：undefined、null、布尔值（Boolean）、字符串（String）、数值（Number）、对象（Object）。
@@ -252,7 +254,6 @@ co(function* () {
 * generator functions (delegation)
 
 
-
 # 参考链接
 - [MDN Generator](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Generator)
 - [MDN function*](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/function*)
@@ -260,6 +261,5 @@ co(function* () {
 - [王福朋的深入理解 JavaScript 异步](https://github.com/wangfupeng1988/js-async-tutorial)
 - [阮一峰 ES6入门 Symbol](http://es6.ruanyifeng.com/#docs/symbol)
 - [MDN Symbol.iterator](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Symbol/iterator)
-- [Q.js 库](https://github.com/kriskowal/q)
 - [thunkify 库](https://github.com/tj/node-thunkify)
 - [co 库](https://github.com/tj/co)

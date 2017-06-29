@@ -115,8 +115,6 @@ save()
 
 > **建议**： ending all promise chains with a `.catch()`.
 
-# Q.js 库
-
 # Promise API参考
 
 **静态方法**
@@ -131,7 +129,39 @@ save()
 `Promise.race(array);` | 生成一个 Promise，该 Promise 在任意项执行时执行，或在任意项拒绝时拒绝，以最先发生的为准。
 
 
+# Q.js 库
+
+## 安装Q.js
+```
+npm i q --save
+```
+## 使用Q.nfcall和Q.nfapply
+`Q.nfcall` 就是使用 **call的语法** 来返回一个promise对象，例如
+
+```javascript
+const fullFileName = path.resolve(__dirname, '../data/data1.json')
+const result = Q.nfcall(fs.readFile, fullFileName, 'utf-8')  // 使用 Q.nfcall 返回一个 promise
+result.then(data => {
+    console.log(data)
+}).catch(err => {
+    console.log(err.stack)
+})
+```
+
+`Q.nfapply` 就是使用 **apply的语法** 返回一个promise对象，例如
+```javascript
+const fullFileName = path.resolve(__dirname, '../data/data1.json')
+const result = Q.nfapply(fs.readFile, [fullFileName, 'utf-8'])  // 使用 Q.nfapply 返回一个 promise
+result.then(data => {
+    console.log(data)
+}).catch(err => {
+    console.log(err.stack)
+})
+
+```
+
 # 参考链接
 - [MDN Promise](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 - [developers.google.com: JavaScript Promise 简介](https://developers.google.com/web/fundamentals/getting-started/primers/promises)
 - [medium: What is a Promise?](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261)
+- [Q.js 库](https://github.com/kriskowal/q)
