@@ -2,7 +2,6 @@
 title: javascript异步编程（0）目录
 date: 2017-06-27 22:52:59
 categories:
-- 技术
 - Javascript
 tags:
 - Javascript

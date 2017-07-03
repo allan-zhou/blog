@@ -2,7 +2,6 @@
 title: javascript异步编程（2）Promise
 date: 2017-06-27 22:53:38
 categories:
-- 技术
 - Javascript
 tags:
 - Javascript

@@ -2,7 +2,6 @@
 title: javascript异步编程（1）什么是异步
 date: 2017-06-27 22:53:17
 categories:
-- 技术
 - Javascript
 tags:
 - Javascript
