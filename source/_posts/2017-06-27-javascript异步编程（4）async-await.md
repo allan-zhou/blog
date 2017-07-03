@@ -12,6 +12,8 @@ tags:
 # AsyncFunction
 **AsyncFunction 构造函数** 创建一个新的  `async function` 对象。在JavaScript中，每个异步函数实际上都是一个 **AsyncFunction 对象**。  
 
+<!-- more -->
+
 AsyncFunction不是一个全局对象。可以通过运行以下代码获得。 
 ```javascript
 Object.getPrototypeOf(async function(){}).constructor
