@@ -1,11 +1,14 @@
 ---
-title: MongoDB CRUD 操作
-date: 2017-07-03 23:03:08
+title: MongoDB学习笔记（3）MongoDB CRUD
+date: 2017-07-03 21:41:44
 categories:
+- MongoDB
 tags:
+- MongoDB
 ---
+
 # Create Operations
-![mongodb](/images/mongodb/crud-annotated-mongodb-insertOne.bakedsvg.svg)
+![mongodb](/images/mongodb/crud-annotated-mongodb-insertOne.bakedsvg.svg)  
 > 注意：
 - insert operations 作用于单个 collection
 - 所有 write operations 都具有原子性
@@ -36,10 +39,6 @@ db.collection.insert(
 { w: <value>, j: <boolean>, wtimeout: <number> }
 ```
 
-
-## Additional Methods for Inserts
-
-
 # Read Operations
 ![mongodb](/images/mongodb/crud-annotated-mongodb-find.bakedsvg.svg)
 
@@ -48,8 +47,6 @@ db.collection.insert(
 
 # Delete Operations
 ![mongodb](/images/mongodb/crud-annotated-mongodb-deleteMany.bakedsvg.svg)
-
-# Bulk Write
 
 # 参考链接
 - [mongodb docs](https://docs.mongodb.com/manual/crud/)

@@ -1,6 +1,6 @@
 ---
-title: Windows下安装MongoDB
-date: 2017-06-24 15:21:10
+title: MongoDB学习笔记（1）Windows下安装MongoDB
+date: 2017-07-03 21:40:12
 categories:
 - MongoDB
 tags:
