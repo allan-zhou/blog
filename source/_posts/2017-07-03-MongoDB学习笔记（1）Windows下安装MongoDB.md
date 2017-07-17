@@ -28,11 +28,12 @@ MongoDB需要一个data目录来存储所有数据。它的默认data目录位�
 安装MongoDB时并没有创建此文件夹，需要我们手动创建。
 ```
 md C:\data\db
+md C:\data\log
 ```
 
 # 启动MongoDB
 ```
-mongdb
+mongod
 ```
 ![mongodb03](/images/mongodb/mongodb03.png)
 如果提示 `waiting for connections on port 27017`，代表启动成功。 **27017**是MongoDB的默认端口。  
@@ -52,11 +53,11 @@ mongo
 
 > systemLog:  
 &nbsp;&nbsp;&nbsp; destination: file  
-&nbsp;&nbsp;&nbsp; path:c:\data\log\mongod.log  
+&nbsp;&nbsp;&nbsp; path: c:\data\log\mongod.log  
 storage:  
 &nbsp;&nbsp;&nbsp; dbPath: c:\data\db  
 
-安装windows服务
+安装windows服务:  **`需要使用具有管理员权限的命令行窗口`**
 ```
 mongod --config "C:\Program Files\MongoDB\Server\3.4\mongod.cfg" --install
 ```
